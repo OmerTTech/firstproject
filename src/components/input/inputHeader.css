@@ -1,0 +1,17 @@
+.inputH{
+    padding: 10px 40px;
+    outline:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+   border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    position: relative;
+}
+::placeholder{
+    padding-left: 10px;
+}

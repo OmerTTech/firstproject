@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  padding: 0 20px;
+}
+.header .image{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.image img{
+  width: 100%;
+}
+
+.header nav{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.header nav >a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: brown;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.cart {
+  position: relative;
+}
+
+.cart span{
+  position: absolute;
+  top: -13px;
+  font-size: 17px;
+  right: -17px;
+  background: #fff;
+  color: brown;
+  font-weight: bold;
+  padding: 1px 10px;
+  border-radius: 50%;
+}
+
+.link-span {
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: brown;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.dropdown .content {
+  position: absolute;
+  background-color: brown;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  padding: 10px;
+  z-index: 324234;
+}
+
+.content span,.content a{
+  display: block;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+#dropdown-basic {
+  background: brown !important;
+  border: 1px solid brown !important;
+}

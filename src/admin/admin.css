@@ -1,0 +1,22 @@
+aside {
+    background-color: #4e73df;
+    height: 100vh;
+    padding: 20px;
+}
+
+aside a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+tr td {
+    vertical-align: middle;
+}
+
+.container {
+    height: 100vh;
+    overflow: auto;
+}
